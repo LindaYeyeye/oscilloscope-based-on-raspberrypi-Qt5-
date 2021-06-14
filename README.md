@@ -66,7 +66,17 @@ rasp系统是一种基于Linux的内核的系统，可以将树莓派看作一�
 
 由于树莓派没有ADC转化模块，所以我们需要外接一个ADC芯片对模拟量进行采样和读取。 不同芯片的连接方式不同，我采用的是ADC1115
 
+![image](https://github.com/Gienne-608/-Qt5-/blob/main/image/2.jpg)
 
+![image](https://github.com/Gienne-608/-Qt5-/blob/main/image/3.jpg)
+
+读取转化CSV文件程序在 readvoltage 文件夹
+
+## -界面开发-
+
+我采用的开发方式为qt5。树莓派首先读取电压存入CSV文件后，在Qt5上打开该文件进行读取绘制。
+
+可以实现简介中的各项功能
 
 
 
